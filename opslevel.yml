@@ -1,0 +1,11 @@
+---
+version: 1
+service:
+  name: Event Transformer
+  lifecycle: generally_available
+  tier: tier_1
+  product: Alerting Pipeline
+  owner: alpha
+  language: Scala
+  framework: 
+  description: Processes events.
