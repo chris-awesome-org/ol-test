@@ -8,4 +8,4 @@ service:
   owner: alpha
   language: Scala
   framework: 
-  description: Processes events.
+  description: Processes ALL THE events.
