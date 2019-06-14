@@ -1,0 +1,11 @@
+---
+version: 1
+service:
+  name: monorepo
+  lifecycle: generally_available
+  tier:
+  product: Alerting Pipeline
+  owner: alpha
+  language: Scala
+  framework: 
+  description: Processes ALL THE events in a monorepo.
