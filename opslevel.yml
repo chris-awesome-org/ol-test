@@ -9,3 +9,8 @@ service:
   language: Scala
   framework: 
   description: Processes ALL THE events.
+  tools:
+  - name: PagerDuty
+    category: incidents
+    url: https://google.ca
+    environment: Production
