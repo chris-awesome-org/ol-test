@@ -15,6 +15,6 @@ service:
     url: https://google.ca
     environment: Staging
   - name: PagerDuty
-    category: incidents
+    category: Incidents
     url: https://google.ca
     environment: Production
