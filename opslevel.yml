@@ -26,4 +26,4 @@ service:
   - name: BugSnag
     category: errors
     url: https://bugsnag.com
-    category: Staging
+    environment: Staging
