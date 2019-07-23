@@ -21,3 +21,5 @@ service:
   - name: Spinnaker
     category: DePlOyMeNt
     url: https://spinnaker.io
+  - category: Logs
+    url: https://google.ca
