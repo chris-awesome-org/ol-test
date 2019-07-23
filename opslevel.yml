@@ -23,3 +23,7 @@ service:
     url: https://spinnaker.io
   - category: Logs
     url: https://google.ca
+  - name: BugSnag
+    category: errors
+    url: https://bugsnag.com
+    category: Staging
