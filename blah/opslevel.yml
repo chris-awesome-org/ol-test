@@ -3,9 +3,14 @@ version: 1
 service:
   name: ol-test mono
   lifecycle: generally_available
-  tier:
+  tier: 
   product: Alerting Pipeline
   owner: alpha
   language: Scala
   framework: 
   description: Processes ALL THE events in a monorepo.
+  tools:
+  - name: PagerDuty
+    category: incidents
+    url: https://pagerduty.com
+    environment: 
