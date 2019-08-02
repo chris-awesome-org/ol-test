@@ -13,11 +13,14 @@ service:
   - name: PagerDuty
     category: incidents
     url: https://pagerduty.com
-    environment: Production
+    environment:
   - name: PagerDuty
     category: incidents
     url: https://pagerduty.com
     environment: Staging
   - name: Confluence
     category: runbooks
+    url: https://google.ca
+  - name: LogDNA
+    category: logs
     url: https://google.ca
