@@ -9,6 +9,8 @@ service:
   language: Scala
   framework: 
   description: Processes ALL THE events. and some
+  service_dependencies:
+    - alias: catalogue
   tools:
   - name: PagerDuty
     category: incidents
