@@ -12,6 +12,7 @@ service:
   service_dependencies:
     - alias: catalogue
     - alias: some-other-thing-with-no-service
+    - alias: reporting
   tools:
   - name: PagerDuty
     category: incidents
