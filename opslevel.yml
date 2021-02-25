@@ -11,7 +11,7 @@ service:
   description: Processes ALL THE events. and some
   service_dependencies:
     - alias: catalogue
-    - alias: some-other-thinsg-sasadwit
+    - alias: some-service-not-there
     - alias: reporting
   tools:
   - name: PagerDuty
