@@ -13,7 +13,7 @@ service:
     - alias: catalogue
     - alias: catalogue
     - alias: event_transformer
-    - alias: some-serviced-nsost-sasdthdsferes
+    - alias: some-ed-nsost-sasdthdsferes
     - alias: reporting
   tools:
   - name: PagerDuty
