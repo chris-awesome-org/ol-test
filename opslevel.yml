@@ -10,9 +10,8 @@ service:
   framework: 
   description: Processes ALL THE events. and some
   service_dependencies:
-    - alias: catalogue
     - alias: event_transformer
-    - alias: some-ed-nsost-sasdthdsferes
+    - alias: some-ed
     - alias: reporting
   tools:
   - name: PagerDuty
