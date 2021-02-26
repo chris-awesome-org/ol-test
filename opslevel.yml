@@ -13,6 +13,7 @@ service:
     - alias: event_transformer
     - alias: some-ed
     - alias: reporting
+    - alias: catalogue
   tools:
   - name: PagerDuty
     category: incidents
