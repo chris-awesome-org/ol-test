@@ -14,7 +14,7 @@ service:
     - alias: catalogue
     - alias: event_transformer
     - alias: some-service-nost-sasdthdsferes
-    - alias: reportingasd
+    - alias: reporting
   tools:
   - name: PagerDuty
     category: incidents
