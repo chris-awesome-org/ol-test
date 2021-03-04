@@ -8,7 +8,7 @@ service:
   owner: alpha
   language: Scala
   framework: 
-  description: Processes ALL THE events. and some
+  description: Processes ALL THE eventsas
   service_dependencies:
     - alias: some-search
   tools:
