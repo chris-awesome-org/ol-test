@@ -10,9 +10,7 @@ service:
   framework: 
   description: Processes ALL THE events. and some
   service_dependencies:
-    - alias: event_transformer
-    - alias: some-ed
-    - alias: reporting
+    - alias: some-search
   tools:
   - name: PagerDuty
     category: incidents
