@@ -9,8 +9,12 @@ service:
   language: Scala
   framework: 
   description: Processes ALL THE eventsas
+  tags:
+    - key: foo
+      value: bar
+    - key: version
+      value: 1
   service_dependencies:
-    - alias: some-search
     - alias: sonair
   tools:
   - name: PagerDuty
