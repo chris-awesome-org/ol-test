@@ -11,6 +11,7 @@ service:
   description: Processes ALL THE eventsas
   service_dependencies:
     - alias: some-search
+    - alias: sonair
   tools:
   - name: PagerDuty
     category: incidents
