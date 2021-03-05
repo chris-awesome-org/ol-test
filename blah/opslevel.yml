@@ -9,6 +9,9 @@ service:
   language: Scala
   framework: 
   description: Processes ALL THE events in a monorepo.
+  service_dependencies:
+    - alias: search
+    - alias: reporting
   tools:
   - name: PagerDuty
     category: incidents
